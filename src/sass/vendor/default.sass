@@ -1,0 +1,81 @@
+html 
+	box-sizing: border-box
+
+*, *:before, *:after 
+	box-sizing: inherit
+
+html.js	.loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_Inner
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+body
+	font:
+		family: Arial,sans-serif
+		weight: normal
+		size: 12px
+	line-height: 1.4
+	min-width: 320px
+	position: relative
+	-webkit-font-smoothing: antialised
+	overflow-x: hidden
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+input:focus::-webkit-input-placeholder 
+	color: transparent
+	outline: none
+input:focus::-moz-placeholder          
+	color: transparent
+	outline: none
+input:focus:-moz-placeholder           
+	color: transparent
+	outline: none
+input:focus:-ms-input-placeholder      
+	color: transparent
+	outline: none
+textarea:focus
+	outline: none
+
+label 
+	cursor: pointer
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	-o-user-select: none
+	user-select: none
+
+img
+	height: auto
+	max-width: 100%
+	width: auto\9
+
+ul 
+	list-style: none
+
+.hidden
+	display: none

@@ -1,0 +1,71 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-arrow_left {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -290px;
+  width: 36px;
+  height: 52px;
+}
+.icon-arrow_right {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -343px;
+  width: 36px;
+  height: 52px;
+}
+.icon-facebook {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px 0px;
+  width: 30px;
+  height: 31px;
+}
+.icon-mail {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -32px;
+  width: 30px;
+  height: 31px;
+}
+.icon-rss {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -64px;
+  width: 30px;
+  height: 31px;
+}
+.icon-tick {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -201px;
+  width: 49px;
+  height: 41px;
+}
+.icon-twitter {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -96px;
+  width: 30px;
+  height: 31px;
+}
+.icon-user {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -160px;
+  width: 42px;
+  height: 40px;
+}
+.icon-vimeo {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -128px;
+  width: 30px;
+  height: 31px;
+}
+.icon-wheel {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -243px;
+  width: 46px;
+  height: 46px;
+}
